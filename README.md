@@ -5,7 +5,11 @@
 The purpose of this repository is to create a simple automation framework from srcatch and test different functionalities of different websites as well as different tools and their latest versions.
 
 ## How to setup the project?
-Simply clone the repository, create a new virtual enviroment and execute the following command to install the requirements:
+Simply clone the repository, then create a new virtual enviroment:
+`virtualenv -p python3 env`
+`source env/bin/activate`
+
+And execute the following command to install the requirements:
 `pip install -r .\requirements.txt`
 
 ## How to run?
